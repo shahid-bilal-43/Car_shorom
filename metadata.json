@@ -1,0 +1,6 @@
+{
+  "name": "Leghari Motors — 3D Luxury Car Showroom",
+  "description": "Leghari Motors — Luxury automotive showroom in Dera Ghazi Khan, Punjab, Pakistan. Managed by Shahid Leghari. Explore verified inventory, 3D vehicle experience, specifications, and direct showroom inquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

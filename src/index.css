@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #FAFAFB;
+    --bg-surface: #FFFFFF;
+    --bg-subtle: #F1F4F9;
+    --accent-gold: #C6A15B;
+    --accent-gold-dark: #9F7E3B;
+    --text-primary: #0F172A;
+    --text-muted: #64748B;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background-color: #FAFAFB;
+    color: #0F172A;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom scrollbar for white luxury aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C6A15B;
+}
+
